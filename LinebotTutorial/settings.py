@@ -25,7 +25,7 @@ SECRET_KEY = 'b9ri@try1o)98!%ab5x=2^_$cqz_5vli$9-vwzf7#^jwcle&ec'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ee6c28a70bfa.ngrok.io']
 
 
 # Application definition
@@ -118,4 +118,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-django_heroku.settings（locals（））
+
+CHANNEL_ACCESS_TOKEN = "Ytx68AAJnALatwzuvJyXrQo3N65MvbyMfJfBShaQxXcKAQS390GSjAmmv3qz4Al+/UcjNjSGZ7//DaY+AyxxBq7J0DpHNZbW2OYLCoV+/f44DbVYLYrXWSETqGfYs5pIuiu81WEnLzjldaUvb1DmewdB04t89/1O/w1cDnyilFU="
+CHANNEL_SECRET = "27426686ea66ab86dbf06e8ae7557e2b"
